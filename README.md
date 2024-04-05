@@ -6,31 +6,29 @@ This repository represents the official implementation of the EACL2024 paper tit
 
 [![Website](doc/badges/badge-website.svg)](https://taohu.me/project_flowseq)
 [![Paper](https://img.shields.io/badge/arXiv-PDF-b31b1b)](https://aclanthology.org/2024.eacl-short.33.pdf)
-[![GitHub](https://img.shields.io/github/stars/CompVis/zigma?style=social)](https://github.com/dongzhuoyao/flowseq)
+[![GitHub](https://img.shields.io/github/stars/dongzhuoyao/flowseq?style=social)](https://github.com/dongzhuoyao/flowseq)
 [![License](https://img.shields.io/badge/License-Apache--2.0-929292)](https://www.apache.org/licenses/LICENSE-2.0)
 
 
 
  <span class="author-block">
-                <a href="https://taohu.me/" target="_blank">Vincent Tao Hu,</a></span>
-                <span class="author-block">
-                  <a href="https://moore3930.github.io/" target="_blank">Di Wu,</a></span>
-                  <span class="author-block">
-                    <a href="https://yukimasano.github.io/" target="_blank">Yuki M. Asano,</a>
-                  </span>
-                  <span class="author-block">
-                    <a href="https://staff.fnwi.uva.nl/p.s.m.mettes/" target="_blank">Pascal Mettes,</a>
-                  </span>
-                  <br>
-                  <span class="author-block">
-                    <a href="https://basurafernando.github.io/" target="_blank">Basura Fernando,</a>
-                  </span>
-      
-                  <span class="author-block">
-                    <a href="Thttps://scholar.google.de/citations?user=zWbvIUcAAAAJ&amp;hl=en" target="_blank">Björn Ommer,</a>
-                  </span>
-                  <span class="author-block">
-                    <a href="https://www.ceessnoek.info/" target="_blank">Cees G.M. Snoek</a>
+<a href="https://taohu.me/" target="_blank">Vincent Tao Hu,</a></span>
+<span class="author-block">
+<a href="https://moore3930.github.io/" target="_blank">Di Wu,</a></span>
+<span class="author-block">
+  <a href="https://yukimasano.github.io/" target="_blank">Yuki M. Asano,</a>
+</span>
+<span class="author-block">
+  <a href="https://staff.fnwi.uva.nl/p.s.m.mettes/" target="_blank">Pascal Mettes,</a>
+</span>
+<span class="author-block">
+  <a href="https://basurafernando.github.io/" target="_blank">Basura Fernando,</a>
+</span>
+<span class="author-block">
+  <a href="Thttps://scholar.google.de/citations?user=zWbvIUcAAAAJ&amp" target="_blank"> Bjorn Ommer, </a>
+</span>
+<span class="author-block">
+  <a href="https://www.ceessnoek.info/" target="_blank">Cees G.M. Snoek</a>
 </span>
 
 
