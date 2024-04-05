@@ -1,0 +1,50 @@
+defaults:
+  #- data: qg
+  #- optim: default
+  #- model: default
+  - _self_
+
+lr: 0.0001
+anneal_lr: True
+batch_size: 2048
+microbatch: 64
+ema_rate: 0.9999
+seed: 102
+gradient_clipping: -1.0
+weight_decay: 0.0
+
+seq_len: 128
+hidden_t_dim: 128
+hidden_dim: 128
+dropout: 0.1
+
+log_interval: 20
+save_interval: 20000
+eval_interval: 1000
+learning_steps: 40000  # 34000  # 40000
+
+resume_checkpoint: "none"
+
+data_dir: "datasets/Wiki_Alignment"
+dataset: "dialogue"
+vocab_size: 30522
+config_name: "bert-base-uncased"
+vocab: "bert"
+note: "note"
+
+checkpoint_path: "checkpoints/flow_v3"
+is_debug: False
+
+eval:
+  model_path: "checkpoints/flow_v3_Quasar_T_a100/ema_0.9999_040000.pt"
+  seed: 123
+  batch_size: 512
+  top_p: -1
+  candidate_num: 1  # 15
+  ode_stepnum: 1
+  split: "test"
+  clamp_step: 0
+  clip_denoised: False
+  is_debug: False
+
+

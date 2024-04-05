@@ -1,0 +1,44 @@
+lr: 0.0001
+anneal_lr: True
+batch_size: 2048
+microbatch: 64
+ema_rate: 0.9999
+seed: 102
+gradient_clipping: -1.0
+weight_decay: 0.0
+
+seq_len: 128
+hidden_t_dim: 128
+hidden_dim: 128
+dropout: 0.1
+
+log_interval: 100
+save_interval: 5000
+eval_interval: 2500
+learning_steps: 140_000  
+
+resume_checkpoint: "none"
+
+data_dir: "datasets/CommonsenseConversation_real"
+dataset: "CommonsenseConversation"
+vocab_size: 30522
+config_name: "bert-base-uncased"
+vocab: "bert"
+
+note: "note"
+
+checkpoint_path: "checkpoints/flow_v2"
+
+is_debug: False
+eval:
+    model_path: "diffusion_models/diffuseq_qqp_h128_lr0.0001_t2000_sqrt_lossaware_seed102_test-cc20230605-09:38:38/ema_0.9999_050000.pt"
+    seed: 123
+    batch_size: 128
+    top_p: -1
+    split: "test"
+    candidate_num: 1
+    ode_stepnum: 1
+    clamp_step: 0
+    clip_denoised: False
+    is_debug: False
+
