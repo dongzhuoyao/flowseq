@@ -51,6 +51,10 @@ CUDA_VISIBLE_DEVICES=6 torchrun --nnodes=1 --nproc-per-node=1 flow_train.py  dat
 
 # Evaluation 
 
+Download the pretrained checkpoint from [https://huggingface.co/taohu/flowseq/tree/main](https://huggingface.co/taohu/flowseq/tree/main), more checkpoints are coming soon.
+
+
+
 ```python
 python flow_sample_eval_s2s.py    data=qqp_acc data.eval.is_debug=0 data.eval.model_path='qqp_ema_0.9999_070000.pt' data.eval.candidate_num=1 data.eval.ode_stepnum=1
 ```
