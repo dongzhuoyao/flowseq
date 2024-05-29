@@ -1,14 +1,4 @@
-#  Flow Matching for Conditional Text Generation in a Few Sampling Steps
-
-**EACL 2024**
-
-This repository represents the official implementation of the EACL2024 paper titled "Flow Matching for Conditional Text Generation in a Few Sampling Steps".
-
-[![Hugging Face Model](https://img.shields.io/badge/🤗%20Hugging%20Face-Model-green)](https://huggingface.co/taohu/flowsea)
-[![Website](doc/badges/badge-website.svg)](https://taohu.me/project_flowseq)
-[![Paper](https://img.shields.io/badge/arXiv-PDF-b31b1b)](https://aclanthology.org/2024.eacl-short.33.pdf)
-[![GitHub](https://img.shields.io/github/stars/dongzhuoyao/flowseq?style=social)](https://github.com/dongzhuoyao/flowseq)
-[![License](https://img.shields.io/badge/License-Apache--2.0-929292)](https://www.apache.org/licenses/LICENSE-2.0)
+#  Flow Matching for Conditional Text Generation in a Few Sampling Steps ( EACL 2024 )
 
 
  <span class="author-block">
@@ -31,6 +21,17 @@ This repository represents the official implementation of the EACL2024 paper tit
 <span class="author-block">
   <a href="https://www.ceessnoek.info/" target="_blank">Cees G.M. Snoek</a>
 </span>
+
+
+
+
+This repository represents the official implementation of the EACL2024 paper titled "Flow Matching for Conditional Text Generation in a Few Sampling Steps".
+
+[![Hugging Face Model](https://img.shields.io/badge/🤗%20Hugging%20Face-Model-green)](https://huggingface.co/taohu/flowsea)
+[![Website](doc/badges/badge-website.svg)](https://taohu.me/project_flowseq)
+[![Paper](https://img.shields.io/badge/arXiv-PDF-b31b1b)](https://aclanthology.org/2024.eacl-short.33.pdf)
+[![GitHub](https://img.shields.io/github/stars/dongzhuoyao/flowseq?style=social)](https://github.com/dongzhuoyao/flowseq)
+[![License](https://img.shields.io/badge/License-Apache--2.0-929292)](https://www.apache.org/licenses/LICENSE-2.0)
 
 
 
