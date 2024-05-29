@@ -25,8 +25,9 @@ This repository represents the official implementation of the EACL2024 paper tit
   <a href="https://basurafernando.github.io/" target="_blank">Basura Fernando,</a>
 </span>
 <span class="author-block">
-  <a href="Thttps://scholar.google.de/citations?user=zWbvIUcAAAAJ&amp" target="_blank"> Bjorn Ommer, </a>
+  <a href="https://scholar.google.de/citations?user=zWbvIUcAAAAJ&hl=en" target="_blank"> Bjorn Ommer, </a>
 </span>
+
 <span class="author-block">
   <a href="https://www.ceessnoek.info/" target="_blank">Cees G.M. Snoek</a>
 </span>
