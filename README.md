@@ -51,7 +51,7 @@ CUDA_VISIBLE_DEVICES=6 torchrun --nnodes=1 --nproc-per-node=1 flow_train.py  dat
 # Evaluation 
 
 ```python
-python flow_sample_eval_s2s.py   --config.eval.is_debug=0 --config=cfgs/rflow_xxx.py --config.eval.model_path='xxxx' --config.eval.ode_stepnum=1
+python flow_sample_eval_s2s.py    data=qqp_acc data.eval.is_debug=0 data.eval.model_path='qqp_ema_0.9999_070000.pt' data.eval.candidate_num=1 data.eval.ode_stepnum=1
 ```
 
 
