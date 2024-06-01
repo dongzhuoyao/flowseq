@@ -24,7 +24,6 @@
 
 
 
-
 This repository represents the official implementation of the EACL2024 paper titled "Flow Matching for Conditional Text Generation in a Few Sampling Steps".
 
 [![Hugging Face Model](https://img.shields.io/badge/🤗%20Hugging%20Face-Model-green)](https://huggingface.co/taohu/flowsea)
@@ -33,6 +32,8 @@ This repository represents the official implementation of the EACL2024 paper tit
 [![GitHub](https://img.shields.io/github/stars/dongzhuoyao/flowseq?style=social)](https://github.com/dongzhuoyao/flowseq)
 [![License](https://img.shields.io/badge/License-Apache--2.0-929292)](https://www.apache.org/licenses/LICENSE-2.0)
 
+
+![landscape](doc/method_eacl24.png)
 
 
 # Dataset
@@ -83,14 +84,22 @@ pip install diffusers
 
 # Common Issue
 
-Typical Issue:
 
+- **The inference result on non-single steps**
+  
+  Our work is main about the explore the single-step sampling. The anchor loss is encouraged to infer the original dataset by single step, the multiple step was implemented by using a zigzag manner following the Consistency Models, this codebase doesn't include that implementation yet. 
+
+- **Batch size**
+
+  If your GPU is not rich enough, try to decrease the batch size to 128~256, and stop using the accumulate gradients, this can somehow reach fair performance according my experience.
+  
+
+- **Typical Issue**
+  
 ```bash 
 https://github.com/Shark-NLP/DiffuSeq/issues/5
 https://github.com/Shark-NLP/DiffuSeq/issues/22
 ```
-
-
 
 
 ## Citation
