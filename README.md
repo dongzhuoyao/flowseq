@@ -38,9 +38,7 @@ This repository represents the official implementation of the EACL2024 paper tit
 
 # Dataset
 
-```
-https://drive.google.com/drive/folders/1sU8CcOJE_aaaKLijBNzr-4y1i1YoZet2?usp=drive_link
-```
+Our dataset is borrowed from DiffuSeq, you can prepare the dataset following their [README](https://github.com/Shark-NLP/DiffuSeq)
 
 ## Run
 
